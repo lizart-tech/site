@@ -144,10 +144,11 @@ nav li:hover > .submenu {
 	
 }
 #image{
+
 	float:right;
 	background: #FFFFFF;
 	height: auto;
-	
+	width: 33%;
     margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -158,7 +159,12 @@ nav li:hover > .submenu {
 	border-top-width: 10px;
 	border-bottom-width: 10px;
 	border-color:#d7f0fa;
-	
+	/*overflow:auto;*/
+
+}
+#image img{
+ max-height: 100%;
+   max-width: 100%;
 }
 #galery table{
 	background: #FFFFFF;
@@ -201,6 +207,16 @@ nav li:hover > .submenu {
 .important2 span{
 	font-size: 1.2em;
 	text-align: inherit;
+}
+.important div:first-child {
+	border: solid #d7f0fa;
+	border-width: 25px 0px;
+	padding: 12px;
+}
+.aaa {
+	width: 30%;
+	height: 700px;
+	padding-top: 25px;
 }
 
 

@@ -166,3 +166,18 @@ nav li:hover > .submenu {
 	font-size: 1.2em;
 	text-align: inherit;
 }
+.aaa {
+	width: 30%;
+	height: 700px;
+	padding-top: 25px;
+}
+.important div:first-child {
+	border: solid #f9e3f8;
+	border-width: 25px 0px;
+	padding: 12px;
+}
+.important div:second-child {
+	border: solid #f9e3f8;
+	border-width: 25px 0px;
+	padding: 12px;
+}

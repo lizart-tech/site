@@ -115,7 +115,7 @@ nav li:hover > .submenu {
 	height: auto;
 	width: 60%;
 	/*margin-top: -50%;*/
-	margin-right: 5px;
+	margin-right: 0px;
 	/*position: relative;*/
 	padding: 20px;
 	border-style:solid;
@@ -162,7 +162,8 @@ nav li:hover > .submenu {
 	float:left;
 	background: #FFFFFF;
 	height: auto;
-	width: 40%;
+	width: 38%;
+
 	margin-top: -375px;
 	margin-left: 5px ;
 	text-align:center;
@@ -222,11 +223,17 @@ nav li:hover > .submenu {
 	text-align: inherit;
 }
 
-.img {
-	/*width: 95%;*/
-	max-width: 100%;
-	height: auto;
-}
 
+.aaa {
+	width: 30%;
+	height: 600px;
+	padding-top: 25px;
+}
+.important div:first-child {
+	border: solid #d7fada ;
+	border-width: 25px 0px;
+	padding: 12px;
+	margin: 10px;
+}
 
 
